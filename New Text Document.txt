@@ -1,0 +1,22 @@
+<br><br><div id="commentbackground">
+
+<p id="para"></p>
+
+
+
+<form align="left" >
+<textarea id="words" rows="01" cols="40" align="left" style="color:green;">Enter comment</textarea>
+<br><input type="button"  onclick="getwords()" value="Enter" align="right"/ >
+</form>
+
+<script type="text/javascript" style="color:green;">
+function getwords(){
+text = words.value;
+document.getElementById("para").innerHTML = text
+document.getElementById("words").innerHTML = "enter"
+}
+</script>
+
+</div>
+					
+					
